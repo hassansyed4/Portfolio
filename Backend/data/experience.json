@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Data Scientist (Student Worker)",
+    "company": "STELAR Lab, University of St. Thomas",
+    "location": "Saint Paul, MN",
+    "start": "Jan 2025",
+    "end": "Present",
+    "highlights": [
+      "Built and improved data analysis workflows and dashboards for research support",
+      "Applied Python and statistics to clean, analyze, and interpret datasets",
+      "Collaborated with team members to deliver insights and research outcomes"
+    ]
+  },
+  {
+    "role": "Senior Developer",
+    "company": "Nagarro",
+    "location": "Jaipur, India",
+    "start": "Oct 2020",
+    "end": "Aug 2024",
+    "highlights": [
+      "Developed enterprise solutions with a focus on backend logic, integrations, and performance",
+      "Worked with stakeholders to translate requirements into reliable implementations",
+      "Improved maintainability through clean code practices and documentation"
+    ]
+  }
+]

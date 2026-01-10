@@ -1,0 +1,31 @@
+[
+  {
+    "name": "AR Image Recognition App",
+    "category": "ar",
+    "stack": "Unity • Vuforia • ARCore • Android",
+    "summary": "Scans a predefined image and plays a video. Improved stability across lighting and devices.",
+    "links": {
+      "demo": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Medical AI Chatbot (RAG)",
+    "category": "data-science",
+    "stack": "Python • NLP • LLM/RAG",
+    "summary": "Built a chatbot concept for medical Q&A with retrieval-based responses and evaluation focus.",
+    "links": {
+      "code": ""
+    }
+  },
+  {
+    "name": "Desktop Support & Incident Management Project",
+    "category": "it-desktop",
+    "stack": "Ticketing Workflows • ServiceNow • Office 365 • Windows/macOS • Active Directory • ITSM",
+    "summary": "Provided first-level desktop support by logging, triaging, and resolving incidents and service requests, documenting resolutions, tracking progress, supporting device setup, laptop refresh activities, and basic security and access control procedures.",
+    "links": {
+      "code": ""
+    }
+  }
+
+]

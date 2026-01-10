@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Syed Hassan Ahmed</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <div id="siteNav"></div>
+
+  <main class="container">
+    <section class="card">
+      <h1>About</h1>
+      <p class="muted" id="aboutHeadline">Loading...</p>
+    </section>
+
+    <section class="about-grid">
+      <section class="card">
+        <h2>Overview</h2>
+        <div id="aboutParagraphs"></div>
+      </section>
+
+      <section class="card">
+        <h2>Focus Areas</h2>
+        <div id="aboutFocus" class="chips"></div>
+      </section>
+
+      <section class="card">
+        <h2>Education</h2>
+        <div id="aboutEducation"></div>
+      </section>
+
+      <section class="card">
+        <h2>Quick Links</h2>
+        <div class="about-links">
+          <a id="aboutLinkedIn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a id="aboutGitHub" href="#" target="_blank" rel="noopener">GitHub</a>
+          <a id="aboutEmail" href="#">Email</a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script type="module">
+    import { initLayout } from "../js/layout.js";
+    initLayout();
+  </script>
+  <script type="module" src="../js/pages.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summary | Syed Hassan Ahmed</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div id="siteNav"></div>
+
+  <main class="container">
+    <section class="card">
+      <h1 id="summaryHeadline"></h1>
+      <ul id="summaryPoints"></ul>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script type="module">
+    import { initLayout } from "../js/layout.js";
+    import { getSummary } from "../js/api.js";
+
+    initLayout();
+
+    async function loadSummary() {
+      const data = await getSummary();
+      document.getElementById("summaryHeadline").textContent = data.headline;
+
+      const ul = document.getElementById("summaryPoints");
+      ul.innerHTML = "";
+      data.points.forEach(p => {
+        const li = document.createElement("li");
+        li.textContent = p;
+        ul.appendChild(li);
+      });
+    }
+
+    loadSummary();
+  </script>
+</body>
+</html>

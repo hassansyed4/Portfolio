@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Syed Hassan Ahmed | Portfolio</title>
+
+  <!-- ✅ ADD THIS LINE HERE -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="siteNav"></div>
+
+ <main class="container">
+
+  <!-- 👤 Hero / Intro section -->
+ <section class="card hero" id="hero">
+  <div class="hero-content">
+    <h1>Syed Hassan Ahmed</h1>
+    <p class="muted">
+      Data Scientist • Data Analyst • Software Engineer • Full-Stack Developer •
+      Researcher • ServiceNow Developer
+    </p>
+
+    <a class="btn" href="/assets/docs/resume.pdf" target="_blank" rel="noopener">
+      Resume (PDF)
+    </a>
+  </div>
+
+  <div class="hero-image">
+    <img src="/assets/images/profile.jpg" alt="Syed Hassan Ahmed" />
+  </div>
+</section>
+
+
+
+  <!-- Summary section -->
+  <section class="card" id="summary">
+    <h2 class="section-title">Summary</h2>
+    <p id="summaryHeadline" class="muted">Loading summary...</p>
+    <ul id="summaryPoints"></ul>
+  </section>
+
+  <!-- 👤 About section -->
+<section class="card" id="about">
+  <h2 class="section-title">About</h2>
+  <p class="muted" id="aboutHeadline">Loading...</p>
+
+  <div id="aboutParagraphs"></div>
+
+  <h3 class="muted" style="margin-top:14px;">Focus Areas</h3>
+  <div id="aboutFocus" class="chips"></div>
+
+  <h3 class="muted" style="margin-top:14px;">Education</h3>
+  <div id="aboutEducation"></div>
+
+  <div class="about-links" style="margin-top:14px;">
+  <a id="aboutLinkedIn"
+     href="https://www.linkedin.com/in/YOUR_LINKEDIN"
+     target="_blank"
+     rel="noopener"
+     aria-label="LinkedIn">
+    <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
+    LinkedIn
+  </a>
+
+  <a id="aboutGitHub"
+     href="https://github.com/YOUR_GITHUB"
+     target="_blank"
+     rel="noopener"
+     aria-label="GitHub">
+    <img src="/assets/icons/github.svg" alt="GitHub" />
+    GitHub
+  </a>
+
+  <a id="aboutEmail"
+     href="mailto:ahme3951@stthomas.edu"
+     aria-label="Email">
+    <img src="/assets/icons/email.svg" alt="Email" />
+    Email
+  </a>
+  </div>
+
+</section>
+
+
+  <!-- Projects section -->
+  <section class="section-block" id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <!-- Optional: filter buttons (recommended) -->
+  <div class="filter-bar" id="projectFilters">
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn is-active" data-filter="data-science">Data Science</button>
+    <button class="filter-btn" data-filter="database">Database</button>
+    <button class="filter-btn" data-filter="servicenow">ServiceNow</button>
+    <button class="filter-btn" data-filter="ar">Augmented Reality</button>
+    <button class="filter-btn" type="button" data-filter="it-desktop">IT Desktop Support</button>
+
+  </div>
+
+  <div id="projectsGrid" class="grid"></div>
+  </section>
+
+
+
+  <!-- Experience section -->
+  <section class="section-block" id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div id="experienceList" class="timeline"></div>
+  </section>
+
+  <!-- Skills section -->
+  <section class="section-block" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div id="skillsWrap" class="skills-wrap"></div>
+  </section>
+
+  <!-- Certifications section -->
+  <section class="section-block" id="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <div id="certList" class="cert-list"></div>
+  </section>
+
+  <!-- Achievements section -->
+  <section class="section-block" id="achievements">
+    <h2 class="section-title">Achievements</h2>
+    <div id="achievementsList" class="achievements-list"></div>
+  </section>
+
+  <!-- 🤝 Volunteer Work -->
+  <section class="section-block" id="volunteer">
+    <h2 class="section-title">Volunteer Work</h2>
+    <div id="volunteerList" class="timeline"></div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="section-block" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="card">
+      <p class="muted contact-line" style="margin:0 0 10px;">
+      ✉️ <a href="mailto:ahme3951@stthomas.edu">ahme3951@stthomas.edu</a>
+      </p>
+
+      <p class="muted contact-line" style="margin:0 0 10px;">
+      📞 <a href="tel:+17639003976">+1 (763) 900-3976</a>
+      </p>
+
+      <p class="muted contact-line" style="margin:0;">
+        📍 Plymouth, MN, USA
+      </p>
+    </div>
+</section>
+
+
+
+</main>
+
+
+
+  <div id="siteFooter"></div>
+
+  <script type="module">
+  import { initLayout } from "./js/layout.js";
+  initLayout();
+</script>
+
+<script type="module" src="./js/pages.js"></script>
+
+</body>
+</html>

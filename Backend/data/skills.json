@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "items": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "name": "Backend / Data",
+      "items": ["Flask", "REST APIs", "ETL", "Pandas", "Data Cleaning"]
+    },
+    {
+      "name": "Platforms",
+      "items": ["PeopleSoft", "Workday Integrations", "Oracle Fusion (Exploring)"]
+    },
+    {
+      "name": "Tools",
+      "items": ["Git", "GitHub", "VS Code", "Postman"]
+    }
+  ]
+}

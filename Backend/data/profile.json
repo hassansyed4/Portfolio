@@ -1,0 +1,40 @@
+{
+  "name": "Syed Hassan Ahmed",
+  "title": "Data Scientist • Data Analyst • ServiceNow Developer • AR Developer • Researcher",
+  "location": "Plymouth, MN",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/syed4/",
+    "github": "https://github.com/hassansyed4",
+    "email": "mailto:ahme3951@stthomas.edu"
+
+  },
+  "about": {
+
+    "headline": "I am currently pursuing a Master’s degree in Data Science and actively seeking internship/part time/full time/contract opportunities to apply my skills and gain real-world experience. With a strong interest in data-driven insights and research-based problem solving, I enjoy working on projects that combine data science, software engineering, and applied analytics. I bring a balanced mix of technical skills and creative thinking to every project, whether it involves AI, machine learning, augmented reality, databases, or enterprise systems. I enjoy learning new technologies, taking on challenges, and explaining complex ideas in a clear and approachable way. Currently, I am focused on gaining practical experience through academic projects, research work, and community volunteering, while continuing to strengthen my skills in data science, analytics, database systems, cloud computing, and applied research.",
+
+
+    "focusAreas": [
+      "Data Engineering & Workflow Automation",
+      "Backend APIs & Services (Python / Flask)",
+      "SQL, Data Modeling & Pipelines",
+      "Automation, Tooling & Process Optimization",
+      "Human-Centered Systems (Service & Support)",
+      "Visualization & Storytelling with Data",
+      "Security, Privacy & Responsible Data Use",
+      "Cross-Disciplinary Projects & Applied Learning",
+      "Technical Documentation & Knowledge Management"
+    ],
+    "education": [
+      {
+        "degree": "MS in Data Science & AI",
+        "school": "University of St. Thomas, MN, USA",
+        "note": "In progress (Aug 2024 – May 2026)"
+      },
+      {
+        "degree": "Bachelor of Technology in Computer Science",
+        "school": "Arya College of Engineering & I.T., RJ, India",
+        "note": "Completed (Sep 2016 – Jul 2020)"
+      }
+    ]
+  }
+}
