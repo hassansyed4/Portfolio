@@ -1,19 +1,31 @@
 import os
 import json
 from flask import Flask, jsonify, send_from_directory, request
-
 # Serve frontend files
 FRONTEND_DIR = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "frontend")
 )
 
 app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
+# Path to Frontend folder (one level up from Backend)
+FRONTEND_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "Frontend"))
+
 
 def read_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 # ---------- API ROUTES ----------
+
+@app.get("/")
+def home():
+    return send_from_directory(FRONTEND_DIR, "index.html")
+
+@app.get("/<path:filename>")
+def frontend_files(filename):
+    # Serve anything inside Frontend: css, js, pages, assets, etc.
+    return send_from_directory(FRONTEND_DIR, filename)
+
 
 @app.get("/api/health")
 def health():
