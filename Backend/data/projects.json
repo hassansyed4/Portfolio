@@ -6,7 +6,7 @@
     "summary": "Allows users to scan a predefined image and automatically plays a linked video in augmented reality. Used in educational and event settings to deliver interactive explanations by scanning images.",
     "links": {
       "demo": "",
-      "code": ""
+      "code": "https://github.com/hassansyed4/AR-Image-Recognition-App"
     }
   },
   {
@@ -15,7 +15,7 @@
     "stack": "Python • NLP • LLM/RAG • LangChain • Pinecone • API integrations • Flask • Vector Database • GIT",
     "summary": "Built a chatbot concept for medical Q&A with retrieval-based responses and evaluation focus.",
     "links": {
-      "code": ""
+      "code": "https://github.com/hassansyed4/Medical-Chatbot-Generative-AI"
     }
   },
   {
@@ -24,7 +24,7 @@
   "stack": "Python • Gradio • OpenCV • NumPy • PyTorch • Hugging Face Transformers • PIL (Python Imaging Library)",
   "summary": "Built a local Gradio-based prototype that analyzes uploaded injury images by detecting the primary region using DETR panoptic segmentation, extracting bounding boxes with OpenCV, estimating size and area using pixel-to-centimeter conversion, and computing average RGB color values for basic visual analysis.",
   "links": {
-    "code": ""
+    "code": "https://github.com/hassansyed4/Injury-Detector"
   }
   },
 
