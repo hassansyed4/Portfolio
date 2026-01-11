@@ -1,50 +1,72 @@
 import os
 import json
 from flask import Flask, jsonify, send_from_directory, request
-# Serve frontend files
-FRONTEND_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "frontend")
-)
 
+# -----------------------------
+# Paths
+# -----------------------------
+BASE_DIR = os.path.dirname(__file__)
+FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Frontend"))  # <-- keep only this
+
+# Serve Frontend as static from root: /css, /js, /pages, /assets
 app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
-# Path to Frontend folder (one level up from Backend)
-FRONTEND_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "Frontend"))
 
-
-def read_json(path):
+# -----------------------------
+# Helpers
+# -----------------------------
+def read_json(path: str):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-# ---------- API ROUTES ----------
+def data_path(filename: str) -> str:
+    return os.path.join(BASE_DIR, "data", filename)
 
+# -----------------------------
+# Frontend routes
+# -----------------------------
 @app.get("/")
 def home():
+    # Serve the SPA/landing page
     return send_from_directory(FRONTEND_DIR, "index.html")
 
-@app.get("/<path:filename>")
-def frontend_files(filename):
-    # Serve anything inside Frontend: css, js, pages, assets, etc.
-    return send_from_directory(FRONTEND_DIR, filename)
-
-
+# -----------------------------
+# API routes
+# -----------------------------
 @app.get("/api/health")
 def health():
     return jsonify({"status": "ok"})
 
 @app.get("/api/profile")
 def profile():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "profile.json")
-    return jsonify(read_json(data_path))
+    return jsonify(read_json(data_path("profile.json")))
 
 @app.get("/api/projects")
 def projects():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "projects.json")
-    return jsonify(read_json(data_path))
+    return jsonify(read_json(data_path("projects.json")))
 
 @app.get("/api/summary")
 def summary():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "summary.json")
-    return jsonify(read_json(data_path))
+    return jsonify(read_json(data_path("summary.json")))
+
+@app.get("/api/experience")
+def experience():
+    return jsonify(read_json(data_path("experience.json")))
+
+@app.get("/api/skills")
+def skills():
+    return jsonify(read_json(data_path("skills.json")))
+
+@app.get("/api/certifications")
+def certifications():
+    return jsonify(read_json(data_path("certifications.json")))
+
+@app.get("/api/achievements")
+def achievements():
+    return jsonify(read_json(data_path("achievements.json")))
+
+@app.get("/api/volunteer")
+def volunteer():
+    return jsonify(read_json(data_path("volunteer.json")))
 
 @app.post("/api/contact")
 def contact():
@@ -59,44 +81,9 @@ def contact():
     print(f"[CONTACT] {name} | {email} | {message}")
     return jsonify({"ok": True, "message": "Message received"})
 
-@app.get("/api/experience")
-def experience():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "experience.json")
-    return jsonify(read_json(data_path))
-
-@app.get("/api/skills")
-def skills():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "skills.json")
-    return jsonify(read_json(data_path))
-
-@app.get("/api/certifications")
-def certifications():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "certifications.json")
-    return jsonify(read_json(data_path))
-
-@app.get("/api/achievements")
-def achievements():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "achievements.json")
-    return jsonify(read_json(data_path))
-
-@app.get("/api/volunteer")
-def volunteer():
-    data_path = os.path.join(os.path.dirname(__file__), "data", "volunteer.json")
-    return jsonify(read_json(data_path))
-
-
-# ---------- FRONTEND ROUTES ----------
-
-@app.get("/")
-def serve_home():
-    return send_from_directory(FRONTEND_DIR, "index.html")
-
-@app.get("/<path:filename>")
-def serve_frontend(filename):
-    return send_from_directory(FRONTEND_DIR, filename)
-
-# ---------- START SERVER ----------
-
+# -----------------------------
+# Start (local only)
+# -----------------------------
 if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 5000))
