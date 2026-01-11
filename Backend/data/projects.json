@@ -72,7 +72,17 @@
   "links": {
     "code": "https://github.com/hassansyed4/Bookstore-Database-Management-System"
   }
+  },
+  {
+  "name": "Automated Category Assignment for Excel Data",
+  "category": "data-science",
+  "stack": "Python • Pandas • Excel Processing • Keyword Matching • Regular Expressions",
+  "summary": "Built a Python automation to populate category labels in Excel by extracting and matching keywords from descriptive text. The script processes decoration descriptions as a unified field, applies rule-based mappings with exclusions and combinations, and updates the Categories column consistently.",
+  "links": {
+    "code": "https://github.com/hassansyed4/Automated-Category-Assignment-for-Cultural-Decoration-Data-Excel-Processing-"
   }
+  }
+
 
 
 ]
