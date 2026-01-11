@@ -1,14 +1,15 @@
 [
   {
-    "role": "Data Scientist (Student Worker)",
+    "role": "Data Scientist",
     "company": "STELAR Lab, University of St. Thomas",
     "location": "Saint Paul, MN",
     "start": "Jan 2025",
     "end": "Present",
     "highlights": [
-      "Built and improved data analysis workflows and dashboards for research support",
-      "Applied Python and statistics to clean, analyze, and interpret datasets",
-      "Collaborated with team members to deliver insights and research outcomes"
+      "Built and optimized data analysis workflows and interactive dashboards to support research-driven decision making",
+      "Applied Python, statistics, and data visualization techniques to clean, analyze, and interpret complex datasets",
+      "Contributed to applied research projects including a medical AI chatbot, an augmented reality image recognition application, and an ancient pottery research database",
+      "Collaborated with cross-functional teams to translate analytical insights into meaningful research outcomes"
     ]
   },
   {
