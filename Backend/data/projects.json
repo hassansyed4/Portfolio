@@ -66,11 +66,11 @@
   },
   {
   "name": "Bookstore Database Management System",
-  "category": "database",
-  "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Functions • Data Integrity",
-  "summary": "Designed a relational Bookstore Database using Oracle SQL by applying ER modeling, foreign keys, triggers, and constraints. Built entities such as Books, Authors, Categories, Orders, Users, and Promotions, implemented SQL joins for complex data retrieval, automated audit logging with triggers, enforced data integrity, and populated realistic data for manipulation and testing.",
+  "category": "database-systems",
+  "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Data Integrity",
+  "summary": "Designed a relational Bookstore Database using Oracle SQL by applying ER modeling, foreign keys, triggers, and constraints. Built entities such as Books, Authors, Categories, Orders, Users, and Promotions, implemented SQL joins, automated audit logging, and enforced data integrity.",
   "links": {
-    "code": ""
+    "code": "https://github.com/hassansyed4/Bookstore-Database-Management-System"
   }
   }
 
