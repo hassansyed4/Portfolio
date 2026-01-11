@@ -277,3 +277,211 @@ section { scroll-margin-top: 90px; }
   width:18px;
   height:18px;
 }
+
+/* ===== Left fixed vertical nav (safe version) ===== */
+@media (min-width: 980px){
+
+  /* Keep your content layout intact, just shift it right slightly */
+  main.container{
+    margin-left: 260px;   /* pushes content right */
+    margin-right: auto;
+  }
+
+  /* Turn your existing nav into a left sidebar */
+  .nav{
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    width: 220px;
+    height: calc(100vh - 36px);
+    z-index: 999;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: rgba(11,18,32,.85);
+    backdrop-filter: blur(10px);
+    overflow: auto;
+  }
+
+  /* Vertical layout inside sidebar */
+  .nav__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  /* Brand stays at top */
+  .brand{
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  /* Links become vertical */
+  .nav__links{
+    display: flex !important;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
+
+  .nav__links a{
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: var(--muted);
+    background: rgba(255,255,255,.03);
+  }
+
+  .nav__links a:hover{
+    color: var(--text);
+    background: rgba(255,255,255,.07);
+  }
+
+  /* Contact button at bottom */
+  .nav__links a.btn{
+    margin-top: auto;
+    text-align: center;
+    color: #081022;
+  }
+
+  /* Hide hamburger on desktop */
+  .nav__toggle{ display: none !important; }
+
+  /* Active highlight */
+  .nav__links a.is-active{
+    color: var(--text);
+    font-weight: 800;
+    outline: 1px solid rgba(255,255,255,.15);
+  }
+  .nav__links a.is-active::after{ display:none; }
+}
+
+/* ===== Sidebar vertical centering + polish ===== */
+@media (min-width: 980px){
+
+  /* Center the sidebar vertically */
+  .nav{
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    max-height: calc(100vh - 60px);
+    padding: 4px;
+  }
+
+  /* Improve spacing inside */
+  .nav__inner{
+    gap: 14px;
+  }
+
+  /* Make link cards look softer & cleaner */
+  .nav__links a{
+    background: linear-gradient(
+      180deg,
+      rgba(255,255,255,.05),
+      rgba(255,255,255,.02)
+    );
+    border: 1px solid rgba(255,255,255,.08);
+    transition: all 0.2s ease;
+  }
+
+  .nav__links a:hover{
+    transform: translateX(4px);
+    background: rgba(255,255,255,.08);
+  }
+
+  /* Highlight active section more clearly */
+  .nav__links a.is-active{
+    background: linear-gradient(
+      90deg,
+      rgba(110,168,255,.25),
+      rgba(167,139,250,.25)
+    );
+    color: var(--text);
+    font-weight: 800;
+    border-color: rgba(255,255,255,.25);
+  }
+
+  /* Fix Contact button visibility */
+  .nav__links a.btn{
+    margin-top: 18px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    color: #081022 !important;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 6px 18px rgba(110,168,255,.35);
+  }
+
+  .nav__links a.btn:hover{
+    transform: translateX(4px) scale(1.02);
+    opacity: 1;
+  }
+}
+
+/* ===== Footer perfectly centered ===== */
+.footer{
+  margin-top: 72px;
+  padding: 36px 0;
+  background: rgba(17,26,46,.22);
+  border-top: 1px solid var(--line);
+}
+
+/* Center everything */
+.footer .container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* horizontal center */
+  text-align: center;       /* text center */
+  gap: 16px;
+}
+
+/* Footer title */
+.footer__title{
+  font-weight: 900;
+  letter-spacing: .3px;
+}
+
+/* Links centered */
+.footer__links{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Link styling */
+.footer__links a{
+  color: var(--muted);
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.10);
+  font-size: 14px;
+}
+
+.footer__links a:hover{
+  color: var(--text);
+  background: rgba(255,255,255,.10);
+}
+
+/* Right block centered as well */
+.footer__right{
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+
+/* ===== Expand main content to fill right gap ===== */
+@media (min-width: 980px){
+
+  main.container{
+    max-width: calc(100vw - 300px); /* sidebar + spacing */
+    margin-left: 260px;             /* sidebar width */
+    margin-right: 260px;
+  }
+
+}
