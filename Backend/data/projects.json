@@ -2,8 +2,8 @@
   {
     "name": "AR Image Recognition App",
     "category": "ar",
-    "stack": "Unity • Vuforia • ARCore • Android",
-    "summary": "Scans a predefined image and plays a video. Improved stability across lighting and devices.",
+    "stack": "Unity 3D• Vuforia • ARCore • Android • C# • Firebase",
+    "summary": "Allows users to scan a predefined image and automatically plays a linked video in augmented reality. Used in educational and event settings to deliver interactive explanations by scanning images.",
     "links": {
       "demo": "",
       "code": ""
