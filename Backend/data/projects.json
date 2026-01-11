@@ -19,6 +19,16 @@
     }
   },
   {
+  "name": "Injury Image Analysis & Segmentation Prototype",
+  "category": "data-science",
+  "stack": "Python • Gradio • OpenCV • NumPy • PyTorch • Hugging Face Transformers • PIL (Python Imaging Library)",
+  "summary": "Built a local Gradio-based prototype that analyzes uploaded injury images by detecting the primary region using DETR panoptic segmentation, extracting bounding boxes with OpenCV, estimating size and area using pixel-to-centimeter conversion, and computing average RGB color values for basic visual analysis.",
+  "links": {
+    "code": ""
+  }
+  },
+
+  {
     "name": "Desktop Support & Incident Management Project",
     "category": "it-desktop",
     "stack": "Ticketing Workflows • ServiceNow • Office 365 • Windows/macOS • Active Directory • ITSM",
