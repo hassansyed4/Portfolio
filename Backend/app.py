@@ -6,31 +6,29 @@ from flask import Flask, jsonify, send_from_directory, request
 # Paths
 # -----------------------------
 BASE_DIR = os.path.dirname(__file__)
-FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Frontend"))  # <-- keep only this
+FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Frontend"))
 
-# Serve Frontend as static from root: /css, /js, /pages, /assets
 app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
 
 # -----------------------------
 # Helpers
 # -----------------------------
-def read_json(path: str):
+def read_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def data_path(filename: str) -> str:
+def data_path(filename):
     return os.path.join(BASE_DIR, "data", filename)
 
 # -----------------------------
-# Frontend routes
+# Frontend
 # -----------------------------
 @app.get("/")
 def home():
-    # Serve the SPA/landing page
     return send_from_directory(FRONTEND_DIR, "index.html")
 
 # -----------------------------
-# API routes
+# APIs
 # -----------------------------
 @app.get("/api/health")
 def health():
@@ -40,13 +38,13 @@ def health():
 def profile():
     return jsonify(read_json(data_path("profile.json")))
 
-@app.get("/api/projects")
-def projects():
-    return jsonify(read_json(data_path("projects.json")))
-
 @app.get("/api/summary")
 def summary():
     return jsonify(read_json(data_path("summary.json")))
+
+@app.get("/api/projects")
+def projects():
+    return jsonify(read_json(data_path("projects.json")))
 
 @app.get("/api/experience")
 def experience():
@@ -71,20 +69,19 @@ def volunteer():
 @app.post("/api/contact")
 def contact():
     payload = request.get_json(silent=True) or {}
-    name = (payload.get("name") or "").strip()
-    email = (payload.get("email") or "").strip()
-    message = (payload.get("message") or "").strip()
+    name = payload.get("name", "").strip()
+    email = payload.get("email", "").strip()
+    message = payload.get("message", "").strip()
 
     if not name or not email or not message:
-        return jsonify({"ok": False, "error": "All fields are required."}), 400
+        return jsonify({"ok": False, "error": "All fields are required"}), 400
 
     print(f"[CONTACT] {name} | {email} | {message}")
-    return jsonify({"ok": True, "message": "Message received"})
+    return jsonify({"ok": True})
 
 # -----------------------------
-# Start (local only)
+# Start
 # -----------------------------
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port)
