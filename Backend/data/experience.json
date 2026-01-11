@@ -14,7 +14,7 @@
   {
     "role": "Senior Developer",
     "company": "Nagarro",
-    "location": "Jaipur, India",
+    "location": "Gurugram, India",
     "start": "Oct 2020",
     "end": "Aug 2024",
     "highlights": [
@@ -22,5 +22,19 @@
       "Worked with stakeholders to translate requirements into reliable implementations",
       "Improved maintainability through clean code practices and documentation"
     ]
+  },
+  {
+  "role": "R&D Software Engineer Intern",
+  "company": "Nagarro",
+  "location": "Gurugram, India",
+  "start": "Jun 2020",
+  "end": "Sep 2020",
+  "highlights": [
+    "Supported research and development initiatives by prototyping and testing web-based applications using JavaScript, HTML, and CSS",
+    "Assisted in evaluating new features and technical approaches through debugging, experimentation, and iterative improvements",
+    "Collaborated with team members to document findings, learn new technologies, and contribute to R&D-driven solution design",
+    "Successfully completed a 3-month internship and converted to a full-time role based on performance"
+  ]
   }
+
 ]
