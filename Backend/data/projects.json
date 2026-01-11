@@ -26,6 +26,33 @@
     "links": {
       "code": ""
     }
+  },
+  {
+  "name": "ServiceNow Incident & Request Management System",
+  "category": "servicenow",
+  "stack": "NYC DOE USA • ServiceNow • ITSM • Incident Management • Request Fulfillment • SLA Tracking • Workflow Automation",
+  "summary": "Configured and supported Incident and Service Request workflows in ServiceNow for the New York City Department of Education, including categorization, prioritization, SLA tracking, and automated task routing to improve resolution efficiency and user experience.",
+  "links": {
+    "code": ""
+  }
+  },
+  {
+  "name": "ServiceNow Service Catalog & Workflow Automation",
+  "category": "servicenow",
+  "stack": "Saxo Bank Denmark • ServiceNow • Service Catalog • Flow Designer • UI Policies • Business Rules • Access Control",
+  "summary": "Developed Service Catalog items with approval workflows using Flow Designer, UI Policies, and Business Rules for Saxo Bank (Denmark), standardizing request handling, enforcing access controls, and reducing manual processing.",
+  "links": {
+    "code": ""
+  }
+  },
+  {
+  "name": "ServiceNow Reporting & Operational Insights",
+  "category": "servicenow",
+  "stack": "IBM India • ServiceNow • Reporting • Dashboards • ITSM Metrics • Data Validation",
+  "summary": "Built ServiceNow reports and dashboards for IBM Pune to track incident trends, request volumes, and SLA compliance, supporting operational visibility, data-driven decisions, and continuous process improvement.",
+  "links": {
+    "code": ""
+  }
   }
 
 ]
