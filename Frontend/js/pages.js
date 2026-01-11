@@ -73,7 +73,7 @@ async function loadProjects() {
         <p class="muted">${p.summary || ""}</p>
         <div class="project-links">
           ${makeLink("Demo", p?.links?.demo)}
-          ${makeLink("Code", p?.links?.code)}
+          ${makeLink("GitHub Link", p?.links?.code)}
           ${makeLink("Case Study", p?.links?.caseStudy)}
         </div>
       </article>
