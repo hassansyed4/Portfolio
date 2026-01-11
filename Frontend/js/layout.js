@@ -57,8 +57,8 @@ function setActiveNavLink() {
   const map = [
     { key: "summary", match: "/pages/summary.html" },
     { key: "about", match: "/pages/about.html" },
-    { key: "experience", match: "/pages/experience.html" },
     { key: "projects", match: "/pages/projects.html" },
+    { key: "experience", match: "/pages/experience.html" },
     { key: "skills", match: "/pages/skills.html" },
     { key: "certifications", match: "/pages/certifications.html" },
     { key: "achievements", match: "/pages/achievements.html" },
