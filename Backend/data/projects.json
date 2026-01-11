@@ -12,7 +12,7 @@
   {
     "name": "Medical AI Chatbot (RAG)",
     "category": "data-science",
-    "stack": "Python • NLP • LLM/RAG",
+    "stack": "Python • NLP • LLM/RAG • LangChain • Pinecone • API integrations • Flask • Vector Database • GIT",
     "summary": "Built a chatbot concept for medical Q&A with retrieval-based responses and evaluation focus.",
     "links": {
       "code": ""
