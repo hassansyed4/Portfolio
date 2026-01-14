@@ -1,20 +1,52 @@
 {
   "categories": [
-    {
-      "name": "Languages",
-      "items": ["Python", "SQL", "JavaScript", "HTML", "CSS"]
-    },
-    {
-      "name": "Backend / Data",
-      "items": ["Flask", "REST APIs", "ETL", "Pandas", "Data Cleaning"]
-    },
-    {
-      "name": "Platforms",
-      "items": ["PeopleSoft", "Workday Integrations", "Oracle Fusion (Exploring)"]
-    },
-    {
-      "name": "Tools",
-      "items": ["Git", "GitHub", "VS Code", "Postman"]
-    }
+  {
+    "name": "Programming Languages",
+    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#"]
+  },
+  {
+    "name": "Frontend Technologies",
+    "items": ["HTML", "CSS", "React.js"]
+  },
+  {
+    "name": "Backend & Web Frameworks",
+    "items": ["Node.js", "Flask", "REST APIs"]
+  },
+  {
+    "name": "Databases",
+    "items": ["PostgreSQL", "MySQL", "SQL"]
+  },
+  {
+    "name": "Data Science, AI & ML",
+    "items": ["Pandas", "NumPy", "Machine Learning", "Deep Learning", "NLP", "LLMs"]
+  },
+  {
+    "name": "AR & Computer Vision",
+    "items": ["Unity3D", "OpenCV", "ARCore"]
+  },
+  {
+    "name": "AWS Services",
+    "items": ["S3", "Lambda", "EC2"]
+  },
+  {
+    "name": "Data Engineering & Systems",
+    "items": ["Agile Software Development", "Web Services", "SDLC", "System Integration"]
+  },
+  {
+    "name": "Data Visualization & BI Tools",
+    "items": ["Tableau", "Power BI"]
+  },
+  {
+    "name": "Development Tools",
+    "items": ["Visual Studio Code", "PyCharm", "Jupyter Notebook"]
+  },
+  {
+    "name": "Version Control & DevOps Tools",
+    "items": ["Git", "GitHub", "GitLab", "GitHub Actions (CI/CD)", "GitHub Desktop"]
+  },
+  {
+    "name": "Microsoft Office Suite",
+    "items": ["Word", "Excel", "PowerPoint", "Access", "Outlook", "OneNote", "Publisher"]
+  }
   ]
 }
