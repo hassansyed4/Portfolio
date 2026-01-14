@@ -40,28 +40,28 @@
   {
     "name": "ServiceNow ITSM Analytics & Automation Platform",
     "category": "servicenow",
-    "stack": "NYC DOE USA • ServiceNow • ITSM • Reports • Performance Analytics • SLA Frameworks • Workflow Automation",
+    "stack": "Client: NYC DOE USA • ServiceNow • ITSM • Reports • Performance Analytics • SLA Frameworks • Workflow Automation",
     "summary": "Designed and supported ServiceNow ITSM dashboards and automated KPI reporting for the New York City Department of Education, enabling real-time visibility into incidents, requests, SLA performance, and overall service health while reducing manual reporting effort.",
     "links": {
-      "code": ""
+      "code": "https://github.com/hassansyed4/ServiceNow-ITSM-Analytics-Automation-Platform-NYC-DOE-"
     }
   },
   {
     "name": "ServiceNow CMDB Optimization & Asset Governance",
     "category": "servicenow",
-    "stack": "Saxo Bank Denmark • ServiceNow • CMDB • CI Relationship Mapping • Asset Lifecycle • Data Audits • Automation Rules",
+    "stack": "Client: Saxo Bank Denmark • ServiceNow • CMDB • CI Relationship Mapping • Asset Lifecycle • Data Audits • Automation Rules",
     "summary": "Supported CMDB data normalization, configuration item relationship mapping, and asset lifecycle governance within ServiceNow for Saxo Bank, improving configuration accuracy, audit readiness, and change impact analysis through validation and automation.",
     "links": {
-      "code": ""
+      "code": "https://github.com/hassansyed4/ServiceNow-CMDB-Optimization-Asset-Governance-Saxo-Bank-Denmark-"
     }
   },
   {
     "name": "ServiceNow Virtual Agent & Knowledge Management Modernization",
     "category": "servicenow",
-    "stack": "ZS Associates Pune • ServiceNow • Virtual Agent • Knowledge Base • ITSM • Self-Service Automation",
+    "stack": "Client: ZS Associates Pune • ServiceNow • Virtual Agent • Knowledge Base • ITSM • Self-Service Automation",
     "summary": "Implemented and enhanced ServiceNow Virtual Agent workflows and standardized knowledge base governance for ZS Associates, improving self-service adoption, reducing service desk workload, and enabling faster issue resolution for end users.",
     "links": {
-      "code": ""
+      "code": "https://github.com/hassansyed4/Virtual-Agent-Knowledge-Management-Modernization-ZS-Associates-Pune-"
     }
   },
   {
