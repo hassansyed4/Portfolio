@@ -1,15 +1,15 @@
 
-// [
-//   {
-//     "organization": "Reading Bridge (Anoka County Library – Mississippi Library)",
-//     "location": "Fridley, MN",
-//     "role": "Volunteer Reading Mentor",
-//     "duration": "Feb 2026 – Apr 2026",
-//     "details": [
-//       "Mentored 1st–3rd grade students reading below grade level by providing weekly one-on-one 45-minute literacy support sessions.",
-//       "Supported early literacy development using creative play and guided reading activities.",
-//       "Helped build student confidence and foster a positive, encouraging reading environment.",
-//       "Collaborated with library staff to ensure consistent participation throughout the 8-week program."
-//     ]
-//   }
-// ]
+[
+  {
+    "organization": "Reading Bridge (Anoka County Library – Mississippi Library)",
+    "location": "Fridley, MN",
+    "role": "Volunteer Reading Mentor",
+    "duration": "Feb 2026 – Apr 2026",
+    "details": [
+      "Mentored 1st–3rd grade students reading below grade level by providing weekly one-on-one 45-minute literacy support sessions.",
+      "Supported early literacy development using creative play and guided reading activities.",
+      "Helped build student confidence and foster a positive, encouraging reading environment.",
+      "Collaborated with library staff to ensure consistent participation throughout the 8-week program."
+    ]
+  }
+]
