@@ -2,7 +2,7 @@
   "categories": [
   {
     "name": "Programming Languages",
-    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#"]
+    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#", "Java", "OOPs", "TypeScript", "R", "Kotlin", "Swift"]
   },
   {
     "name": "Frontend Technologies",
