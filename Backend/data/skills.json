@@ -14,7 +14,7 @@
   },
   {
     "name": "Databases",
-    "items": ["PostgreSQL", "MySQL", "SQL"]
+    "items": ["MySQL", "SQL", "PostgreSQL"]
   },
   {
     "name": "Data Science, AI & ML",
@@ -22,7 +22,7 @@
   },
   {
     "name": "AR & Computer Vision",
-    "items": ["Unity3D", "OpenCV", "ARCore"]
+    "items": ["Unity3D", "OpenCV", "ARCore","Vuforia"]
   },
   {
     "name": "AWS Services",
