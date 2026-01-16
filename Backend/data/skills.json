@@ -26,7 +26,7 @@
   },
   {
     "name": "AWS Services",
-    "items": ["S3", "Lambda", "EC2"]
+    "items": ["S3", "EC2", "Lambda"]
   },
   {
     "name": "Data Engineering & Systems",
