@@ -65,6 +65,15 @@
     }
   },
   {
+  "name": "Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs",
+  "category": "database",
+  "stack": "PostgreSQL • FastAPI • REST API's • Docker • PowerBi • Power Query  • JWT Authentication • Hash Authentication • Bearer Tokens",
+  "summary": "A secure analytics backend built with FastAPI and PostgreSQL to deliver production data to Power BI. It exposes JWT-secured REST APIs with time-based parameters and runs PostgreSQL in Docker. Power BI consumes data via Bearer tokens, enabling scalable access without direct database exposure.",
+  "links": {
+    "code": "https://github.com/hassansyed4/Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs"
+  }
+  },
+  {
   "name": "Bookstore Database Management System",
   "category": "database",
   "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Data Integrity",
