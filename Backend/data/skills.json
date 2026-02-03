@@ -2,7 +2,7 @@
   "categories": [
   {
     "name": "Programming Languages",
-    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#", "Java", "OOPs", "TypeScript", "R", "Kotlin", "Swift"]
+    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#", "Java", "OOPs", "TypeScript", "F#"]
   },
   {
     "name": "Frontend Technologies",
@@ -25,8 +25,8 @@
     "items": ["Unity3D", "OpenCV", "ARCore","Vuforia"]
   },
   {
-    "name": "AWS Services",
-    "items": ["S3", "EC2", "Lambda"]
+    "name": "Web Services",
+    "items": ["AWS (S3, EC2, Lambda)", "GCP", "Azure"]
   },
   {
     "name": "Data Engineering & Systems",
