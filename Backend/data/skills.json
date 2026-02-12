@@ -17,6 +17,10 @@
     "items": ["MySQL", "SQL", "PostgreSQL"]
   },
   {
+    "name": "ORM (Object-Relational Mapping)",
+    "items": ["Hibernate", "Django ORM", "ActiveRecord (Rails ORM)"]
+  },
+  {
     "name": "Data Science, AI & ML",
     "items": ["Pandas", "NumPy", "Machine Learning", "Deep Learning", "NLP", "LLMs"]
   },
@@ -27,6 +31,14 @@
   {
     "name": "Web Services",
     "items": ["AWS (S3, EC2, Lambda)", "GCP", "Azure"]
+  },
+  {
+    "name": "Web Application",
+    "items": ["UI and CI/CD Pipelines", "Web services", "Rest API’s Development", "JSON/XML"]
+  },
+  {
+    "name": "Web Application Framework",
+    "items": ["Ruby on Rails", "FastAPI", "Django", "Flask"]
   },
   {
     "name": "Data Engineering & Systems",
