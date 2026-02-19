@@ -17,6 +17,14 @@
     "items": ["MySQL", "SQL", "PostgreSQL"]
   },
   {
+    "name": "Desktop Support & IT Operations",
+    "items": ["Desktop support", "Incident resolution", "System deployment", "Software installation", "Configuration", "User support", "Technical troubleshooting"]
+  },
+  {
+    "name": "Networking Fundamentals",
+    "items": ["TCP/IP", "VPN", "DNS", "Firewall concepts", "Network troubleshooting"]
+  },
+  {
     "name": "ORM (Object-Relational Mapping)",
     "items": ["Hibernate", "Django ORM", "ActiveRecord (Rails ORM)"]
   },
@@ -59,6 +67,10 @@
   {
     "name": "Microsoft Office Suite",
     "items": ["Word", "Excel", "PowerPoint", "Access", "Outlook", "OneNote", "Publisher"]
+  },
+  {
+    "name": "Operating Systems & Platforms",
+    "items": ["Windows 10/11", "Linux", "Microsoft 365", "Azure", "Active Directory"]
   }
   ]
 }
