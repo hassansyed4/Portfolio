@@ -1,5 +1,20 @@
 [
   {
+    "role": "Graduate Student Lab Assistant",
+    "company": "University of St. Thomas",
+    "location": "Saint Paul, MN",
+    "start": "Feb 2026",
+    "end": "Present • Month Experince - 1 Month",
+    "highlights": [
+      "Selected for this role based on strong software engineering, database, and programming knowledge.",
+      "Provide technical mentoring to students in Python, SQL, and Object-Oriented Programming (OOP) concepts.",
+      "Guide students in SDLC, Agile methodology, and version control using Git and GitHub.",
+      "Assist students in understanding frontend development fundamentals using the Vue.js framework.",
+      "Provide desktop support, software installation, and troubleshooting in lab environments.",
+      "Introduce students to cloud computing fundamentals and real-world software deployment concepts."
+    ]
+  },
+  {
     "role": "Data Engineer & Scientist (Internship)",
     "company": "STELAR Lab, University of St. Thomas",
     "location": "Saint Paul, MN",
