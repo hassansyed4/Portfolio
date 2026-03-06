@@ -1,5 +1,14 @@
 [
   {
+    "name": "Vue Task Management (ToDo) App",
+    "category": "web-development",
+    "stack": "Vue.js • JavaScript • HTML5 • CSS3 • Component-Based Architecture • Reactive UI • Git",
+    "summary": "Developed a responsive task management application using Vue.js that allows users to add, complete, and delete tasks dynamically. Implemented component-based architecture and reactive data binding to provide real-time updates and an intuitive user interface.",
+    "links": {
+      "code": "https://github.com/hassansyed4/vue.js-todo-app"
+    }
+  },
+  {
     "name": "AR Image Recognition App",
     "category": "ar",
     "stack": "Unity 3D• Vuforia • ARCore • Android • C# • Firebase",
