@@ -2,7 +2,7 @@
   "categories": [
   {
     "name": "Programming Languages",
-    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#", "Java", "OOPs", "TypeScript", "F#"]
+    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#", "Java", "OOPs", "TypeScript", "F#", "C", "Linux Shell Scripting"]
   },
   {
     "name": "Frontend Technologies",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Backend & Web Frameworks",
-    "items": ["Node.js", "Flask", "REST APIs"]
+    "items": ["Vue.js", "Node.js", "Flask", "REST APIs"]
   },
   {
     "name": "Databases",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Web Application Framework",
-    "items": ["Ruby on Rails", "FastAPI", "Django", "Flask"]
+    "items": ["Vue.js", "Ruby on Rails", "FastAPI", "Django", "Flask"]
   },
   {
     "name": "Data Engineering & Systems",
