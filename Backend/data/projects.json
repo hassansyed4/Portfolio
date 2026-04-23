@@ -1,5 +1,23 @@
 [
-    {
+  {
+  "name": "Pottery-Operations-Analytics-by-Jira-v1",
+  "category": "data-analytics",
+  "stack": "Jira • Agile Methodology • Kanban • Excel • Data Modeling • ETL Concepts • Data Validation • Workflow Design • GitHub",
+  "summary": "A Jira-based analytics workflow project designed to simulate real-world IT operations and data pipeline design. The project demonstrates Agile delivery using Epics, Tasks, Sprints, and Kanban boards, covering data source identification, schema design, data extraction planning, transformation, validation, and dashboard prototyping. It highlights structured thinking in organizing data workflows and delivering business-ready analytics solutions.",
+  "links": {
+    "code": "https://github.com/hassansyed4/pottery-operations-analytics-by-jira-v1"
+  }
+  },
+  {
+  "name": "Pottery-Operations-Analytics-through-PowerBI-Excel-v2",
+  "category": "data-analytics",
+  "stack": "Power BI • Excel • Data Visualization • Data Transformation • Power Query • DAX • CSV • Jira Data • Dashboard Design • KPI Reporting",
+  "summary": "An end-to-end analytics project focused on transforming Jira-style operational data into interactive dashboards using Excel and Power BI. The project involves extracting data in CSV format, performing data cleaning and transformation in Excel, and building dynamic visualizations to track SLA performance, ticket trends, resolution time, and team workload. It highlights strong capabilities in data analysis, dashboard design, and business storytelling, enabling non-technical stakeholders to understand and act on operational insights.",
+  "links": {
+    "code": "https://github.com/hassansyed4/pottery-operations-analytics-through-powerbi-excel-v2"
+  }
+  },
+  {
   "name": "Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs",
   "category": "database",
   "stack": "PostgreSQL • FastAPI • REST API's • Docker • PowerBi • Power Query  • JWT Authentication • Hash Authentication • Bearer Tokens",
