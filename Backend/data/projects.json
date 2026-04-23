@@ -1,4 +1,31 @@
 [
+    {
+  "name": "Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs",
+  "category": "database",
+  "stack": "PostgreSQL • FastAPI • REST API's • Docker • PowerBi • Power Query  • JWT Authentication • Hash Authentication • Bearer Tokens",
+  "summary": "A secure analytics backend built with FastAPI and PostgreSQL to deliver production data to Power BI. It exposes JWT-secured REST APIs with time-based parameters and runs PostgreSQL in Docker. Power BI consumes data via Bearer tokens, enabling scalable access without direct database exposure.",
+  "links": {
+    "code": "https://github.com/hassansyed4/Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs"
+  }
+  },
+  {
+  "name": "Bookstore Database Management System",
+  "category": "database",
+  "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Data Integrity",
+  "summary": "Designed a relational Bookstore Database using Oracle SQL by applying ER modeling, foreign keys, triggers, and constraints. Built entities such as Books, Authors, Categories, Orders, Users, and Promotions, implemented SQL joins, automated audit logging, and enforced data integrity.",
+  "links": {
+    "code": "https://github.com/hassansyed4/Bookstore-Database-Management-System"
+  }
+  },
+  {
+  "name": "Automated Category Assignment for Excel Data",
+  "category": "data-science",
+  "stack": "Python • Pandas • Excel Processing • Keyword Matching • Regular Expressions",
+  "summary": "Built a Python automation to populate category labels in Excel by extracting and matching keywords from descriptive text. The script processes decoration descriptions as a unified field, applies rule-based mappings with exclusions and combinations, and updates the Categories column consistently.",
+  "links": {
+    "code": "https://github.com/hassansyed4/Automated-Category-Assignment-for-Cultural-Decoration-Data-Excel-Processing-"
+  }
+  },
   {
     "name": "Vue Task Management (ToDo) App",
     "category": "web-development",
@@ -72,35 +99,6 @@
     "links": {
       "code": "https://github.com/hassansyed4/Virtual-Agent-Knowledge-Management-Modernization-ZS-Associates-Pune-"
     }
-  },
-  {
-  "name": "Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs",
-  "category": "database",
-  "stack": "PostgreSQL • FastAPI • REST API's • Docker • PowerBi • Power Query  • JWT Authentication • Hash Authentication • Bearer Tokens",
-  "summary": "A secure analytics backend built with FastAPI and PostgreSQL to deliver production data to Power BI. It exposes JWT-secured REST APIs with time-based parameters and runs PostgreSQL in Docker. Power BI consumes data via Bearer tokens, enabling scalable access without direct database exposure.",
-  "links": {
-    "code": "https://github.com/hassansyed4/Data-Transfer-From-PostgreSQL-to-PowerBi-through-Fast-APIs"
   }
-  },
-  {
-  "name": "Bookstore Database Management System",
-  "category": "database",
-  "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Data Integrity",
-  "summary": "Designed a relational Bookstore Database using Oracle SQL by applying ER modeling, foreign keys, triggers, and constraints. Built entities such as Books, Authors, Categories, Orders, Users, and Promotions, implemented SQL joins, automated audit logging, and enforced data integrity.",
-  "links": {
-    "code": "https://github.com/hassansyed4/Bookstore-Database-Management-System"
-  }
-  },
-  {
-  "name": "Automated Category Assignment for Excel Data",
-  "category": "data-science",
-  "stack": "Python • Pandas • Excel Processing • Keyword Matching • Regular Expressions",
-  "summary": "Built a Python automation to populate category labels in Excel by extracting and matching keywords from descriptive text. The script processes decoration descriptions as a unified field, applies rule-based mappings with exclusions and combinations, and updates the Categories column consistently.",
-  "links": {
-    "code": "https://github.com/hassansyed4/Automated-Category-Assignment-for-Cultural-Decoration-Data-Excel-Processing-"
-  }
-  }
-
-
 
 ]
