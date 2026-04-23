@@ -1,5 +1,14 @@
 [
   {
+  "name": "Automated Category Assignment for Ancient Pottery Data (GCP-Based ETL Pipeline)",
+  "category": "data-analytics",
+  "stack": "Python • Pandas • Google Cloud Storage • BigQuery • ETL Pipeline • Excel Processing • Regular Expressions • Keyword Matching • Data Transformation",
+  "summary": "Designed and implemented a cloud-enabled ETL pipeline on Google Cloud Platform to automate category assignment for a large-scale Excel dataset (~100,000 records). The solution extracts data from Cloud Storage, applies text cleaning and normalization using pandas, and performs rule-based keyword matching with regex, combination logic, and exclusion rules to ensure accurate classification. The transformed data is then stored back in Cloud Storage and loaded into BigQuery for scalable querying and analytics, eliminating manual effort and improving consistency in category labeling.",
+  "links": {
+    "code": "https://github.com/hassansyed4/Automated-Category-Assignment-for-Cultural-Decoration-Data-Excel-Processing-"
+  }
+  },
+  {
   "name": "Pottery-Operations-Analytics-by-Jira-v1",
   "category": "data-analytics",
   "stack": "Jira • Agile Methodology • Kanban • Excel • Data Modeling • ETL Concepts • Data Validation • Workflow Design • GitHub",
@@ -33,15 +42,6 @@
   "summary": "Designed a relational Bookstore Database using Oracle SQL by applying ER modeling, foreign keys, triggers, and constraints. Built entities such as Books, Authors, Categories, Orders, Users, and Promotions, implemented SQL joins, automated audit logging, and enforced data integrity.",
   "links": {
     "code": "https://github.com/hassansyed4/Bookstore-Database-Management-System"
-  }
-  },
-  {
-  "name": "Automated Category Assignment for Excel Data",
-  "category": "data-science",
-  "stack": "Python • Pandas • Excel Processing • Keyword Matching • Regular Expressions",
-  "summary": "Built a Python automation to populate category labels in Excel by extracting and matching keywords from descriptive text. The script processes decoration descriptions as a unified field, applies rule-based mappings with exclusions and combinations, and updates the Categories column consistently.",
-  "links": {
-    "code": "https://github.com/hassansyed4/Automated-Category-Assignment-for-Cultural-Decoration-Data-Excel-Processing-"
   }
   },
   {
