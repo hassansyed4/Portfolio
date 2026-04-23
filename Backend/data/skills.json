@@ -1,76 +1,162 @@
 {
   "categories": [
-  {
-    "name": "Programming Languages",
-    "items": ["Python", "JavaScript", "SQL", "TypeScript", "C#", "Java", "OOPs", "TypeScript", "F#", "C", "Linux Shell Scripting"]
-  },
-  {
-    "name": "Frontend Technologies",
-    "items": ["HTML", "CSS", "React.js"]
-  },
-  {
-    "name": "Backend & Web Frameworks",
-    "items": ["Vue.js", "Node.js", "Flask", "REST APIs"]
-  },
-  {
-    "name": "Databases",
-    "items": ["MySQL", "SQL", "PostgreSQL"]
-  },
-  {
-    "name": "Desktop Support & IT Operations",
-    "items": ["Desktop support", "Incident resolution", "System deployment", "Software installation", "Configuration", "User support", "Technical troubleshooting"]
-  },
-  {
-    "name": "Networking Fundamentals",
-    "items": ["TCP/IP", "VPN", "DNS", "Firewall concepts", "Network troubleshooting"]
-  },
-  {
-    "name": "ORM (Object-Relational Mapping)",
-    "items": ["Hibernate", "Django ORM", "ActiveRecord (Rails ORM)"]
-  },
-  {
-    "name": "Data Science, AI & ML",
-    "items": ["Pandas", "NumPy", "Machine Learning", "Deep Learning", "NLP", "LLMs"]
-  },
-  {
-    "name": "AR & Computer Vision",
-    "items": ["Unity3D", "OpenCV", "ARCore","Vuforia"]
-  },
-  {
-    "name": "Web Services",
-    "items": ["AWS (S3, EC2, Lambda)", "GCP", "Azure"]
-  },
-  {
-    "name": "Web Application",
-    "items": ["UI and CI/CD Pipelines", "Web services", "Rest API’s Development", "JSON/XML"]
-  },
-  {
-    "name": "Web Application Framework",
-    "items": ["Vue.js", "Ruby on Rails", "FastAPI", "Django", "Flask"]
-  },
-  {
-    "name": "Data Engineering & Systems",
-    "items": ["Agile Software Development", "Web Services", "SDLC", "System Integration"]
-  },
-  {
-    "name": "Data Visualization & BI Tools",
-    "items": ["Tableau", "Power BI"]
-  },
-  {
-    "name": "Development Tools",
-    "items": ["Visual Studio Code", "PyCharm", "Jupyter Notebook"]
-  },
-  {
-    "name": "Version Control & DevOps Tools",
-    "items": ["Git", "GitHub", "GitLab", "GitHub Actions (CI/CD)", "GitHub Desktop"]
-  },
-  {
-    "name": "Microsoft Office Suite",
-    "items": ["Word", "Excel", "PowerPoint", "Access", "Outlook", "OneNote", "Publisher"]
-  },
-  {
-    "name": "Operating Systems & Platforms",
-    "items": ["Windows 10/11", "Linux", "Microsoft 365", "Azure", "Active Directory"]
-  }
+    {
+      "name": "Programming Languages",
+      "items": [
+        "SQL", "Python", "JavaScript", "C#", "Java",
+        "TypeScript", "F#", "C", "Linux Shell Scripting", "OOPs"
+      ]
+    },
+    {
+      "name": "Frontend & Visualization",
+      "items": [
+        "HTML", "CSS", "React.js",
+        "Power BI", "Tableau", "Looker Studio"
+      ]
+    },
+    {
+      "name": "Backend & Web Frameworks",
+      "items": [
+        "Node.js", "Flask", "FastAPI", "Django",
+        "Ruby on Rails", "REST APIs", "JSON/XML"
+      ]
+    },
+    {
+      "name": "Databases & Data Platforms",
+      "items": [
+        "PostgreSQL", "MySQL", "SQLite",
+        "BigQuery", "Snowflake"
+      ]
+    },
+    {
+      "name": "SQL & Database Querying",
+      "items": [
+        "Advanced SQL", "Window Functions", "CTEs",
+        "Query Optimization", "Views",
+        "Stored Procedures", "Triggers", "Indexes",
+        "Data Aggregation", "Joins",
+        "Relational Modeling", "Dimensional Modeling"
+      ]
+    },
+    {
+      "name": "Data Modeling & Database Design",
+      "items": [
+        "Relational Schema Design",
+        "Database Normalization (1NF–3NF)",
+        "Entity Relationship Modeling (ER Diagrams)",
+        "Data Integrity Constraints"
+      ]
+    },
+    {
+      "name": "ETL & Data Pipelines",
+      "items": [
+        "ETL (Extract, Transform, Load)",
+        "Data Extraction", "Data Transformation", "Data Loading",
+        "Data Cleaning", "Data Integration",
+        "Batch Processing"
+      ]
+    },
+    {
+      "name": "Data Warehousing Concepts",
+      "items": [
+        "Star Schema", "Snowflake Schema",
+        "OLAP vs OLTP",
+        "Data Mart Design"
+      ]
+    },
+    {
+      "name": "Cloud Data Platforms",
+      "items": [
+        "GCP (BigQuery, Looker Studio)",
+        "AWS (S3, EC2, Lambda)",
+        "Azure",
+        "Cloud Data Processing"
+      ]
+    },
+    {
+      "name": "Data Visualization & Reporting",
+      "items": [
+        "Interactive Dashboards",
+        "Business Intelligence Reporting",
+        "KPI Analysis",
+        "Data Storytelling"
+      ]
+    },
+    {
+      "name": "Data Quality & Governance",
+      "items": [
+        "Data Validation",
+        "Data Consistency Checks",
+        "Metadata Management"
+      ]
+    },
+    {
+      "name": "Data Science, AI & ML",
+      "items": [
+        "Pandas", "NumPy",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP", "LLMs"
+      ]
+    },
+    {
+      "name": "AR & Computer Vision",
+      "items": [
+        "Unity3D", "OpenCV", "ARCore", "Vuforia"
+      ]
+    },
+    {
+      "name": "Data Engineering & Systems",
+      "items": [
+        "Agile Methodology",
+        "SDLC",
+        "System Integration",
+        "Web Services"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "items": [
+        "Jupyter Notebook",
+        "PyCharm",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "name": "Version Control & DevOps",
+      "items": [
+        "Git", "GitHub", "GitLab",
+        "GitHub Actions (CI/CD)"
+      ]
+    },
+    {
+      "name": "Microsoft Office Suite",
+      "items": [
+        "Excel (Pivot Tables)",
+        "Word", "PowerPoint",
+        "Access", "Outlook"
+      ]
+    },
+    {
+      "name": "Operating Systems & Platforms",
+      "items": [
+        "Windows 10/11",
+        "Linux",
+        "Microsoft 365",
+        "Active Directory"
+      ]
+    },
+    {
+      "name": "IT Operations & Networking",
+      "items": [
+        "Desktop Support",
+        "Incident Resolution",
+        "System Deployment",
+        "Technical Troubleshooting",
+        "TCP/IP", "VPN", "DNS",
+        "Firewall Concepts",
+        "Network Troubleshooting"
+      ]
+    }
   ]
 }
