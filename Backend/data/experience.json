@@ -4,7 +4,7 @@
     "company": "University of St. Thomas",
     "location": "Saint Paul, MN",
     "start": "Feb 2026",
-    "end": "Present • Month Experince - 1 Month",
+    "end": "Present • Month Experince - 4 Month",
     "highlights": [
       "Selected for this role based on strong software engineering, database, and programming knowledge.",
       "Provide technical mentoring to students in Python, SQL, and Object-Oriented Programming (OOP) concepts.",
@@ -15,45 +15,46 @@
     ]
   },
   {
-    "role": "Data Engineer & Scientist (Internship)",
-    "company": "STELAR Lab, University of St. Thomas",
-    "location": "Saint Paul, MN",
-    "start": "Aug 2024",
-    "end": "Present • Year Experince - 1.6 Years",
-    "highlights": [
-      "Built and optimized data analysis workflows and interactive dashboards to support research-driven decision making",
-      "Applied Python, statistics, and data visualization techniques to clean, analyze, and interpret complex datasets",
-      "Contributed to applied research projects including a medical AI chatbot, an augmented reality image recognition application, and an ancient pottery research database",
-      "Collaborated with cross-functional teams to translate analytical insights into meaningful research outcomes"
-    ]
+  "role": "Data Analyst & Data Engineer (Internship)",
+  "company": "STELAR Lab, University of St. Thomas",
+  "location": "Saint Paul, MN",
+  "start": "Aug 2024",
+  "end": "Present • Year Experience - 1.9 Years",
+  "highlights": [
+    "Designed and optimized end-to-end ETL pipelines using SQL, Python, and cloud platforms (GCP/AWS), improving data processing efficiency and enabling scalable analytics workflows",
+    "Built interactive dashboards and reports using Power BI, Tableau, and Looker Studio to support research-driven and data-informed decision making",
+    "Applied data analytics, statistical modeling, and machine learning techniques to clean, transform, and analyze complex datasets for actionable insights",
+    "Developed and contributed to projects including a medical AI chatbot, AR-based image recognition system, and research databases using modern data engineering practices",
+    "Collaborated with cross-functional teams in Agile environments to translate business and research requirements into scalable data solutions and analytics deliverables"
+  ]
   },
   {
-    "role": "Senior Software Developer",
+    "role": "Senior Data Analyst",
     "company": "Nagarro",
     "location": "Gurugram, India",
     "start": "Oct 2020",
-    "end": "Aug 2024 • Year Experince - 4 Years",
+    "end": "Aug 2024 • Year Experience - 4 Years",
     "highlights": [
-      "Developed enterprise solutions with a focus on backend logic, integrations, and performance",
-      "Worked with stakeholders to translate requirements into reliable implementations",
-      "Improved maintainability through clean code practices and documentation"
+      "Developed and maintained scalable ETL/ELT pipelines using SQL, Python, Snowflake, and BigQuery, improving data availability and reducing processing time by 30%",
+      "Designed and optimized data warehouse solutions using PostgreSQL and cloud platforms, enabling efficient reporting and analytics across business units",
+      "Built dynamic dashboards and reporting solutions using Power BI and Tableau, improving KPI visibility and driving a 25% increase in operational efficiency",
+      "Worked closely with stakeholders to translate business requirements into data models, analytics solutions, and automated reporting workflows",
+      "Followed Agile and SDLC practices to deliver high-quality, scalable, and maintainable data solutions with strong documentation and performance optimization"
     ]
   },
   {
-  "role": "Software Developer Intern",
-  "company": "Nagarro",
-  "location": "Gurugram, India",
-  "start": "Jun 2020",
-  "end": "Sep 2020 • Month Experince - 3 Months",
-  "highlights": [
-    "Supported R&D environments by installing, configuring, and troubleshooting web applications and system components, ensuring reliable desktop and application performance.",
-    "Troubleshot hardware, software, and network issues, reducing issue resolution time by 35% and improving system reliability.",
-    "Assisted with system deployments and configurations, improving environment setup efficiency by 25%.",
-    "Documented incidents and communicated solutions clearly, improving support response efficiency and user satisfaction by 20%.",
-    "Diagnosed and resolved software and system issues, improving system stability and user support.",
-    "Collaborated with teams on system deployments, configurations, and incident troubleshooting.",
-    "Documented technical issues and assisted users, demonstrating strong problem-solving skills and the ability to quickly learn new technologies."
-  ]
+    "role": "Data Analyst Intern",
+    "company": "Nagarro",
+    "location": "Gurugram, India",
+    "start": "Jun 2020",
+    "end": "Sep 2020 • Month Experience - 3 Months",
+    "highlights": [
+      "Assisted in building and validating ETL workflows using SQL, Excel, and MySQL, improving data accuracy and reducing inconsistencies by 20%",
+      "Supported data cleaning, transformation, and reporting processes, contributing to improved data quality and analytics readiness",
+      "Worked with Python (Pandas) and REST APIs to support backend data workflows and improve system efficiency by 20%",
+      "Collaborated on system configurations, deployments, and troubleshooting, enhancing environment setup efficiency by 25%",
+      "Documented data processes and technical issues, improving team collaboration, knowledge sharing, and response efficiency by 20%"
+    ]
   }
 
 ]
