@@ -36,6 +36,15 @@
   }
   },
   {
+  "name": "GeoLocation-Data-Pipeline-and-Visualization",
+  "category": "database",
+  "stack": "Python • SQLite • REST API • JSON • urllib • JavaScript • Geocoding • Data Ingestion • Data Visualization",
+  "summary": "Designed and implemented a Python-based data pipeline to transform raw university location names into structured geolocation data for analysis and visualization. The workflow reads source data, integrates with a geocoding API to fetch latitude and longitude, stores responses in a SQLite database with caching to reduce redundant API calls, and generates an interactive JavaScript map for global plotting. The project highlights end-to-end data engineering capabilities including ingestion, API integration, storage, validation, and visualization.",
+  "links": {
+    "code": "https://github.com/hassansyed4/geolocation-data-pipeline-and-visualization-using--Python-SQLite-JSON-#geolocation-data-pipeline--visualization"
+  }
+  },
+  {
   "name": "Bookstore Database Management System",
   "category": "database",
   "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Data Integrity",
