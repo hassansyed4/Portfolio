@@ -1,5 +1,11 @@
 [
   {
+    "name": "SnowPro",
+    "issuer": "Snowflake",
+    "date": "Apr 2026",
+    "credentialUrl": ""
+  },
+  {
     "name": "Databases with Python",
     "issuer": "University of Michigan",
     "date": "Mar 2026",
