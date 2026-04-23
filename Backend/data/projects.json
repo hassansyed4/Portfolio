@@ -45,6 +45,15 @@
   }
   },
   {
+  "name": "Music-Metadata-Relational-Database-Design-using-Python-and-SQLite",
+  "category": "database",
+  "stack": "Python • SQLite • SQL • Data Modeling • Database Normalization • CSV Processing • Relational Schema Design • SQL Joins",
+  "summary": "Built a normalized relational database using Python and SQLite to structure music metadata from a CSV source. The solution defines multiple related entities (Artist, Genre, Album, Track) with proper primary and foreign key relationships, applying normalization techniques (1NF, 2NF, 3NF) to ensure data integrity and reduce redundancy. The project includes data ingestion, schema creation, and complex SQL joins to validate relationships and enable efficient querying, showcasing strong expertise in relational database design and structured data management.",
+  "links": {
+    "code": "https://github.com/hassansyed4/music-metadata-relational-database-design-using-python-and-sqlite"
+  }
+  },
+  {
   "name": "Bookstore Database Management System",
   "category": "database",
   "stack": "Oracle SQL • ER Modeling • Triggers • Constraints • SQL Joins • Data Integrity",
